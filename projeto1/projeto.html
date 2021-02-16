@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>MadrugaLog</title>
+      <link rel="stylesheet" type="text/css" href="../_css/estilo.css"/>
+   </head>
+   <body>
+      <form class="form" action="">
+         <!--Formulário para o cliente-->
+         <div class="card">
+            <!--Card é um container-->
+            <div class="cardtop">
+               <img class="imglogin" src="../img/avatar.jpg">
+               <h1 class="title">Rastreamento</h1>
+               <p>Digite seu Acesso: </p>
+            </div>
+            <!--Campos obrigatórios, por isso usei o required-->
+            <div class="card-group">
+               <label>Email</label>
+               <input type="email" name="email" placeholder="Digite seu email" required>
+            </div>
+            <div class="card-group">
+               <label>Senha</label>
+               <input type="password" name="email" placeholder="Digite sua Senha" required>
+            </div>
+            <div class="card-group">
+               <label><input type="checkbox">Lembre-me</label> <!--Checkbox (Quadrado onde a pessoa seleciona para lembrar da senha)-->
+            </div>
+            <!--Botão de acessar a conta (submit pois o mesmo vai enviar os dados para o servidor)-->
+            <div class="card-group btn">
+               <button type="submit">ACESSAR</button> 
+            </div>
+         </div>
+      </form>
+   </body>

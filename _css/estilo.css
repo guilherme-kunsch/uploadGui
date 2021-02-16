@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/*Caixa maior de todo site*/
+body{
+    color: black;
+    font-family: sans-serif ;
+    background-image: url("../projeto1/T2012_1452.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Modificando o formulário*/
+.form {
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+/*Estilo do Container*/
+.card {
+    box-shadow: 1px 1px 1px #ccc;
+    background-color: #fefefe;
+    padding: 30px;
+    border-radius: 5px;   
+}
+
+/*Espaçamento entre o email e a senha*/
+.card-group {
+    margin-bottom: 10px;
+}
+
+/*Vamos modificar omente a Label (email)*/
+.card-group > label {
+    width: 100%;
+    color: rgb(75, 75, 75); 
+    display: block; /*serve para renderizado como bloco*/
+}
+/*Modificando o campo de digitação do Email*/
+.card-group > input {
+    border-radius: 5px;
+    outline: 0; /*contorno do input*/
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+}
+
+/*Estilo do butão de Acessar*/
+/*Linear-gradient serve para criar um degrade na imagem ou botão*/
+.card-group > button {
+    background-image: linear-gradient(to left,#09b690, #48f7d1);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0;
+}
+
+.btn button:hover {
+    background-image: linear-gradient(to left,#067e64, #48f7d1);
+}
+
+/*Onde fica o <h1> e o <p>*/
+.cardtop {
+    text-align: center;
+}
+
+/*Imagem da pessoa*/
+.imglogin {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.title{
+    color: #09b690;
+
+}
